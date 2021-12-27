@@ -70,7 +70,7 @@ class QrSegment
      * byte mode. All input byte arrays are acceptable. Any text string
      * can be converted to UTF-8 bytes and encoded as a byte mode segment.
      *
-     * @param array $data Description
+     * @param string $data Description
      *
      * @return array
      **/
