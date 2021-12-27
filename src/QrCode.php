@@ -237,9 +237,9 @@ class QrCode
      * Returns a QR Code representing the given segments with the given encoding parameters.
      *
      * @param array $segs       Description
-     * @param array $minVersion Description
-     * @param array $maxVersion Description
-     * @param array $mask       Description
+     * @param int $minVersion Description
+     * @param int $maxVersion Description
+     * @param int $mask       Description
      *
      * @throws \Exception
      **/
