@@ -628,7 +628,7 @@ class QrCode
         $blocks = [];
         $rsDiv  = self::reedSolomonComputeDivisor($blockEccLen);
         for ($i = 0, $k = 0; $i < $numBlocks; $i++) {
-            $dat = \array_slice($data, $k, $k + $shortBlockLen - $blockEccLen + ($i < $numShortBlocks ? 0 : 1));
+            $dat = \array_slice($data, $k, $shortBlockLen - $blockEccLen + ($i < $numShortBlocks ? 0 : 1));
 
             $k += \count($dat);
             $ecc = self::reedSolomonComputeRemainder($dat, $rsDiv);
