@@ -1,6 +1,6 @@
 {
-    "name": "malamalca/qr_code",
-    "description": "QrCode library",
+    "name": "krivart/php-qr-code",
+    "description": "PHP QrCode library",
     "type": "library",
     "license": "MIT",
     "authors": [{
