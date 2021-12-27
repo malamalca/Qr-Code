@@ -1,6 +1,6 @@
 {
-    "name": "krivart/php-qr-code",
-    "description": "PHP QrCode library",
+    "name": "malamalca/qr_code",
+    "description": "QrCode library",
     "type": "library",
     "license": "MIT",
     "authors": [{
@@ -13,8 +13,8 @@
     },
     "autoload": {
         "psr-4": {
-            "KrivArt\\QrCode\\": "./src",
-            "KrivArt\\Tests\\": "./tests"
+            "malamalca\\qr_code\\": "./src",
+            "malamalca\\tests\\": "./tests"
         }
     },
     "require-dev": {
