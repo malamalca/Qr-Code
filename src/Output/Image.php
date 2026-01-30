@@ -57,7 +57,11 @@ class Image extends Formatter
                             $positionColor['blue']
                         );
                     }
-                    \imagefilledrectangle($image, $w, $h, $w + $width, $h + $width, $color);
+                    if ($width == 1) {
+                        \imagesetpixel($image, $w, $h, $color);
+                    } else {
+                        \imagefilledrectangle($image, $w, $h, $w + $width, $h + $width, $color);
+                    }
                 }
             }
         }
